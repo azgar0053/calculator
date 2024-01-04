@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <h1>React Calculator</h1>
-      <input style={{fontSize:'20px'}} value={input}/>
+      <input style={{fontSize:'20px'}} value={input} type='text'/>
       <p>{result}</p>
       <div style={calcBtn}>
       <Button btnName={7} onClick={handleClick}/>
